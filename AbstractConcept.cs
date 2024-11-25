@@ -3,6 +3,8 @@ using System;
 abstract class Student
 {
     public abstract void fly();
+    //public abstract void SId();
+    //public abstract void Smoney()
 
     public void walk()
     {
@@ -16,7 +18,7 @@ abstract class Student
         }
         public static void Main()
         {
-            Human h1 = new Human();
+            Student h1 = new Human();
             h1.fly();
             h1.walk();
         }
