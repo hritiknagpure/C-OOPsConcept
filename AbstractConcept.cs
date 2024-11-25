@@ -5,7 +5,7 @@ abstract class Student
     public abstract void fly();
     //public abstract void SId();
     //public abstract void Smoney()
-
+  //internal we cannt access outside the class
     public void walk()
     {
         Console.WriteLine("i am walk");
